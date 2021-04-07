@@ -1,0 +1,1 @@
+Simple Google homepage clone, first odin project.
