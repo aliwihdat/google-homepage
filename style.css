@@ -20,8 +20,26 @@ nav > * {
     font-size: 12px;
 }
 
+.wrapper {
+   background-color: none;
+   cursor: pointer;
+   height: 40px;
+   width: 40px;
+   position: relative;
+   border-radius: 50%;
+   transition: all;
+}
+
+.wrapper:hover {
+    background-color: rgba(60,64,67,0.08);
+}
+
 .svg-wrapper {
     fill: #5f6368;
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(-77%, -50%);
 }
 
 svg {
@@ -40,4 +58,17 @@ svg {
     border-radius: 4px;
     line-height: 16px;
     letter-spacing: .25px;
+    transition: all;
+}
+
+.btn-sign:hover {
+ background-color: #2b7de9;
+}
+
+.nav-link {
+    transition: .5s all;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
