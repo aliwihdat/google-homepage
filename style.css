@@ -75,6 +75,10 @@ svg {
 /*  */
 /*  */
 
+.main-section {
+    padding: 10rem;
+}
+
 input {
     border: none;
     flex: 1;
@@ -124,4 +128,51 @@ input:focus {
     width: 20px;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.btn-search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+}
+
+.btn-search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.main-lang {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.main-lang > a {
+    color: #1a0dab;
+    padding: 0 3px;
+    transition: all;
+}
+
+.main-lang > a:hover {
+    text-decoration: underline;
 }
