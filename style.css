@@ -72,3 +72,56 @@ svg {
 .nav-link:hover {
     text-decoration: underline;
 }
+/*  */
+/*  */
+
+input {
+    border: none;
+    flex: 1;
+    background-color: transparent;
+    margin-right: 1rem;
+}
+
+input:focus {
+    outline: none;
+    font-size: 14px;
+}
+
+
+.img-main {
+    display: flex;
+    justify-content: center;
+}
+
+.img-main > img {
+    min-height: 92px;
+    max-height: 290px;
+    width: 272px;
+}
+
+.search-main {
+    width: auto;
+    max-width: 584px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 1rem;
+    transition: all;
+}
+
+.search-main:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-icon {
+    fill: #9aa0a6;
+    line-height: 24px;
+    height: 20px;
+    width: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
